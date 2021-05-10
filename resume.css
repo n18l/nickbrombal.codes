@@ -1,0 +1,172 @@
+/* Reset styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.625rem;
+  color: hsl(0, 0%, 20%);
+}
+.heading {
+  font-family: "Raleway", serif;
+}
+.heading--page-title {
+  font-size: 4.8em;
+  font-weight: 200;
+}
+.heading--page-subtitle {
+  font-size: 2.6em;
+  margin-top: 4px;
+  font-weight: 200;
+  color: hsl(0, 0%, 45%);
+}
+main {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 60px 20px 60px;
+}
+.resume-section {
+  margin-block-start: 4em;
+}
+.heading--section-title {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.chip-container {
+  display: flex;
+}
+.chip-container__chip {
+  padding-block: 0.6em 0.4em;
+  font-size: 1.4em;
+  background-color: hsl(0, 0%, 85%);
+  border-radius: 3px;
+  margin-inline-end: 6px;
+  padding-inline: 0.6em;
+  cursor: default;
+}
+.expertise-area {
+  display: flex;
+  align-items: center;
+  margin-block-start: 1em;
+}
+.expertise-area-list {
+  /*! display: flex; */
+}
+.expertise-area__name {
+  font-size: 1.4em;
+  font-style: italic;
+  color: hsl(0, 0%, 45%);
+  min-width: 10em;
+}
