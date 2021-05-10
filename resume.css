@@ -150,6 +150,7 @@ main {
 .chip-container__chip {
   padding-block: 0.6em 0.4em;
   font-size: 1.4em;
+  font-weight: 300;
   background-color: hsl(0, 0%, 85%);
   border-radius: 3px;
   margin-inline-end: 6px;
@@ -161,11 +162,9 @@ main {
   align-items: center;
   margin-block-start: 1em;
 }
-.expertise-area-list {
-  /*! display: flex; */
-}
 .expertise-area__name {
   font-size: 1.4em;
+  font-weight: 500;
   font-style: italic;
   color: hsl(0, 0%, 45%);
   min-width: 10em;
