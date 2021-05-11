@@ -182,7 +182,7 @@ main {
 }
 .timeline-entry__who {
   font-size: 1.6em;
-  grid-area: "title";
+  grid-area: title;
 }
 .timeline-entry__where {
   font-size: 0.75em;
@@ -190,10 +190,10 @@ main {
 .timeline-entry__when {
   font-size: 1.4em;
   justify-self: end;
-  grid-area: "tenure";
+  grid-area: tenure;
 }
 .timeline-entry__what-list {
-  grid-area: "tasks";
+  grid-area: tasks;
   font-size: 1.4em;
   list-style: disc;
   margin-inline-start: 2em;
