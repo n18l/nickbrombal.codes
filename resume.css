@@ -139,14 +139,23 @@ main {
   font-weight: 200;
   margin-block-start: 0.4em;
 }
-.resume-section {
-  margin-block-start: 4em;
-}
 .heading--section-title {
   border-block-end: 1px solid hsl(0, 0%, 80%);
   font-size: 1.8em;
   font-weight: 600;
   padding-block-end: 0.6em;
+}
+.heading--subsection-title {
+  font-size: 1.6em;
+}
+.heading--subsection-line-title {
+  color: hsl(0, 0%, 45%);
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: 500;
+}
+.resume-section {
+  margin-block-start: 4em;
 }
 .chip-container {
   display: flex;
@@ -157,7 +166,7 @@ main {
   cursor: default;
   font-size: 1.4em;
   font-weight: 300;
-  margin-inline-end: .6em;
+  margin-inline-end: 0.6em;
   padding-block: 0.6em 0.4em;
   padding-inline: 0.6em;
 }
@@ -167,11 +176,6 @@ main {
   margin-block-start: 1em;
 }
 .expertise-area__name {
-  color: hsl(0, 0%, 45%);
-  font-family: "Raleway", serif;
-  font-size: 1.4em;
-  font-style: italic;
-  font-weight: 500;
   min-width: 10em;
 }
 .timeline-entry {
@@ -182,8 +186,6 @@ main {
   margin-block-start: 2em;
 }
 .timeline-entry__who {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.6em;
   grid-area: title;
 }
 .timeline-entry__where {
@@ -207,4 +209,42 @@ main {
 }
 .timeline-entry__what + .timeline-entry__what {
   margin-block-start: 0.5em;
+}
+.endorsement-list {
+  margin-block-start: 2em;
+}
+.endorsement + .endorsement {
+  margin-block-start: 2em;
+}
+.endorsement__detail-container {
+  margin-block-start: 1.5em;
+}
+.endorsement__detail {
+  display: flex;
+  line-height: 1.4;
+}
+.endorsement__detail + .endorsement__detail {
+  margin-block-start: 0.8em;
+}
+.endorsement__detail__title {
+  min-width: 10em;
+}
+.endorsement__detail__value {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+.endorsement__detail__value + .endorsement__detail__value {
+  margin-block-start: 0.3em;
+}
+.endorsement__detail__value-link {
+  align-items: center;
+  display: flex;
+}
+.endorsement__detail__value-link__icon {
+  fill: hsl(0, 0%, 40%);
+  height: 16px;
+  width: 16px;
+}
+.endorsement__detail__value-link__icon + .endorsement__detail__value-link__text {
+  margin-block-start: 0.3em;
 }
