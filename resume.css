@@ -112,10 +112,18 @@ table {
 * {
   box-sizing: border-box;
 }
+/* Project styles */
 body {
   font-family: "Quicksand", sans-serif;
   font-size: 0.625rem;
   color: hsl(0, 0%, 20%);
+}
+main {
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 60px 20px 60px;
 }
 .heading {
   font-family: "Raleway", serif;
@@ -130,19 +138,14 @@ body {
   font-weight: 200;
   color: hsl(0, 0%, 45%);
 }
-main {
-  max-width: 1024px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 60px 20px 60px;
-}
 .resume-section {
   margin-block-start: 4em;
 }
 .heading--section-title {
+  border-block-end: 1px solid hsl(0, 0%, 80%);
   font-size: 1.8em;
   font-weight: 600;
+  padding-block-end: 0.6em;
 }
 .chip-container {
   display: flex;
@@ -163,9 +166,41 @@ main {
   margin-block-start: 1em;
 }
 .expertise-area__name {
+  font-family: "Raleway", serif;
   font-size: 1.4em;
   font-weight: 500;
   font-style: italic;
   color: hsl(0, 0%, 45%);
   min-width: 10em;
+}
+.timeline-entry {
+  margin-block-start: 2em;
+  display: grid;
+  grid-template-areas:
+    "title tenure"
+    "tasks tasks";
+}
+.timeline-entry__who {
+  font-size: 1.6em;
+  grid-area: "title";
+}
+.timeline-entry__where {
+  font-size: 0.75em;
+}
+.timeline-entry__when {
+  font-size: 1.4em;
+  justify-self: end;
+  grid-area: "tenure";
+}
+.timeline-entry__what-list {
+  grid-area: "tasks";
+  font-size: 1.4em;
+  list-style: disc;
+  margin-inline-start: 2em;
+  margin-block-start: 1em;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.timeline-entry__what + .timeline-entry__what {
+  margin-block-start: 0.5em;
 }
