@@ -181,6 +181,7 @@ main {
     "tasks tasks";
 }
 .timeline-entry__who {
+  font-family: "Raleway", sans-serif;
   font-size: 1.6em;
   grid-area: title;
 }
@@ -188,6 +189,8 @@ main {
   font-size: 0.75em;
 }
 .timeline-entry__when {
+  align-self: end;
+  font-family: "Raleway", sans-serif;
   font-size: 1.4em;
   justify-self: end;
   grid-area: tenure;
