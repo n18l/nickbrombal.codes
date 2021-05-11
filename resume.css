@@ -114,15 +114,15 @@ table {
 }
 /* Project styles */
 body {
+  color: hsl(0, 0%, 20%);
   font-family: "Quicksand", sans-serif;
   font-size: 0.625rem;
-  color: hsl(0, 0%, 20%);
 }
 main {
-  max-width: 840px;
   display: flex;
   flex-direction: column;
   margin: auto;
+  max-width: 840px;
   padding: 60px 20px 60px;
 }
 .heading {
@@ -133,10 +133,10 @@ main {
   font-weight: 200;
 }
 .heading--page-subtitle {
-  font-size: 2.6em;
-  margin-top: 4px;
-  font-weight: 200;
   color: hsl(0, 0%, 45%);
+  font-size: 2.6em;
+  font-weight: 200;
+  margin-top: 4px;
 }
 .resume-section {
   margin-block-start: 4em;
@@ -151,34 +151,34 @@ main {
   display: flex;
 }
 .chip-container__chip {
-  padding-block: 0.6em 0.4em;
-  font-size: 1.4em;
-  font-weight: 300;
   background-color: hsl(0, 0%, 85%);
   border-radius: 3px;
-  margin-inline-end: 6px;
-  padding-inline: 0.6em;
   cursor: default;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-inline-end: 6px;
+  padding-block: 0.6em 0.4em;
+  padding-inline: 0.6em;
 }
 .expertise-area {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-block-start: 1em;
 }
 .expertise-area__name {
+  color: hsl(0, 0%, 45%);
   font-family: "Raleway", serif;
   font-size: 1.4em;
-  font-weight: 500;
   font-style: italic;
-  color: hsl(0, 0%, 45%);
+  font-weight: 500;
   min-width: 10em;
 }
 .timeline-entry {
-  margin-block-start: 2em;
   display: grid;
   grid-template-areas:
     "title tenure"
     "tasks tasks";
+  margin-block-start: 2em;
 }
 .timeline-entry__who {
   font-family: "Raleway", sans-serif;
@@ -192,17 +192,17 @@ main {
   align-self: end;
   font-family: "Raleway", sans-serif;
   font-size: 1.4em;
-  justify-self: end;
   grid-area: tenure;
+  justify-self: end;
 }
 .timeline-entry__what-list {
-  grid-area: tasks;
   font-size: 1.4em;
+  font-weight: 300;
+  grid-area: tasks;
   list-style: disc;
+  line-height: 1.4;
   margin-inline-start: 2em;
   margin-block-start: 1em;
-  font-weight: 300;
-  line-height: 1.4;
 }
 .timeline-entry__what + .timeline-entry__what {
   margin-block-start: 0.5em;
