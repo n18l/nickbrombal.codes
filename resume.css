@@ -159,14 +159,17 @@ main {
 }
 .chip-container {
   display: flex;
+  font-size: 1.4em;
+  margin-block-start: -0.5em;
+  margin-inline-start: -0.5em;
 }
 .chip-container__chip {
   background-color: hsl(0, 0%, 85%);
   border-radius: 3px;
   cursor: default;
-  font-size: 1.4em;
   font-weight: 300;
-  margin-inline-end: 0.6em;
+  margin-block-start: 0.5em;
+  margin-inline-start: 0.5em;
   padding-block: 0.6em 0.4em;
   padding-inline: 0.6em;
 }
