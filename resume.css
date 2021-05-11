@@ -170,9 +170,15 @@ main {
   padding-block: 0.6em 0.4em;
   padding-inline: 0.6em;
 }
+.expertise-area-list {
+  margin-block-start: 1.5em;
+}
 .expertise-area {
   align-items: center;
   display: flex;
+  margin-block-start: 1em;
+}
+.expertise-area + .expertise-area {
   margin-block-start: 1em;
 }
 .expertise-area__name {
