@@ -364,6 +364,7 @@ a:visited {
 .endorsement__detail__value {
   font-size: 1.4em;
   font-weight: 300;
+  padding-block-start: 2px;
 }
 
 .endorsement__detail__link-list {
@@ -382,7 +383,7 @@ a:visited {
   align-items: center;
   background-color: var(--color-button-background);
   border: 1px solid var(--color-button-border);
-  border-radius: 24px;
+  border-radius: 12px;
   display: flex;
   height: 48px;
   padding-inline: 1em;
@@ -392,7 +393,7 @@ a:visited {
 .endorsement__detail__link::before {
   background-color: var(--color-button-background-active);
   border: 1px solid var(--color-button-border-active);
-  border-radius: 24px;
+  border-radius: 12px;
   content: "";
   display: block;
   height: calc(100%);
