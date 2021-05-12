@@ -278,16 +278,41 @@ a:visited {
 }
 
 .expertise-area {
-  align-items: center;
   display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .expertise-area {
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 .expertise-area + .expertise-area {
-  margin-block-start: 1em;
+  margin-block-start: 2em;
 }
 
-.expertise-area__name {
-  flex: 0 0 10em;
+@media screen and (min-width: 600px) {
+  .expertise-area + .expertise-area {
+    margin-block-start: 1em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .expertise-area__name {
+    flex: 0 0 10em;
+  }
+}
+
+.expertise-area__examples {
+  margin-block-start: 0.35em;
+}
+
+@media screen and (min-width: 600px) {
+  .expertise-area__examples {
+    margin-block-start: 0;
+  }
 }
 
 .timeline-entry {
