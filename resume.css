@@ -253,6 +253,7 @@ main {
 }
 .endorsement__detail__link-list {
   display: flex;
+  flex-wrap: wrap;
   margin-block-start: -0.5em;
   margin-inline-start: -0.5em;
 }
