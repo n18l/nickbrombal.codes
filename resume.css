@@ -113,6 +113,9 @@ table {
   box-sizing: border-box;
 }
 /* Project styles */
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: hsl(0, 0%, 20%);
   font-family: "Quicksand", sans-serif;
@@ -156,6 +159,7 @@ main {
 }
 .resume-section {
   margin-block-start: 4em;
+  scroll-margin-block-start: 2em;
 }
 .chip-container {
   display: flex;
