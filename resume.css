@@ -438,11 +438,13 @@ a:visited {
   flex-wrap: wrap;
   margin-block-start: -0.5em;
   margin-inline-start: -0.5em;
+  overflow: hidden;
 }
 
 .endorsement__detail__link-wrapper {
   margin-block-start: 0.5em;
   margin-inline-start: 0.5em;
+  overflow: hidden;
 }
 
 .endorsement__detail__link {
@@ -483,14 +485,16 @@ a:visited {
 
 .endorsement__detail__link__icon {
   fill: var(--color-button-icon);
+  flex: 0 0 16px;
   height: 16px;
-  width: 16px;
   position: relative;
 }
 
 .endorsement__detail__link__text {
   margin-block-end: -0.15em;
+  overflow: hidden;
   position: relative;
+  text-overflow: ellipsis;
 }
 
 .endorsement__detail__link__icon + .endorsement__detail__link__text {
