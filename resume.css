@@ -185,7 +185,7 @@ main {
   margin-block-start: 1em;
 }
 .expertise-area__name {
-  min-width: 10em;
+  flex: 0 0 10em;
 }
 .timeline-entry {
   display: grid;
@@ -241,7 +241,7 @@ main {
   margin-block-start: 0.8em;
 }
 .endorsement__detail__title {
-  min-width: 10em;
+  flex: 0 0 8em;
 }
 .endorsement__detail__value {
   font-size: 1.4em;
