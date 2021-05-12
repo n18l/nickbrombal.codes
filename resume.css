@@ -318,9 +318,29 @@ a:visited {
 .timeline-entry {
   display: grid;
   grid-template-areas:
-    "title tenure"
-    "tasks tasks";
+    "title"
+    "tenure"
+    "tasks";
   margin-block-start: 2em;
+}
+
+@media screen and (min-width: 600px) {
+  .timeline-entry {
+    grid-template-areas:
+      "title tenure"
+      "tasks tasks";
+  }
+}
+
+.timeline-entry__who-where {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .timeline-entry__who-where {
+    display: block;
+  }
 }
 
 .timeline-entry__who {
@@ -329,6 +349,15 @@ a:visited {
 
 .timeline-entry__where {
   font-size: 0.75em;
+  margin-block-start: 0.35em;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 600px) {
+  .timeline-entry__where {
+    margin-block-start: 0;
+    margin-inline-start: 0.25em;
+  }
 }
 
 .timeline-entry__when {
@@ -338,16 +367,28 @@ a:visited {
   font-style: italic;
   font-weight: 400;
   grid-area: tenure;
-  justify-self: end;
+  margin-block-start: 1em;
+}
+
+@media screen and (min-width: 600px) {
+  .timeline-entry__when {
+    justify-self: end;
+    margin-block-start: 0;
+  }
 }
 
 .timeline-entry__what-list {
-  columns: 2;
   font-size: 1.4em;
   font-weight: 300;
   grid-area: tasks;
   line-height: 1.4;
   margin-block-start: 0.5em;
+}
+
+@media screen and (min-width: 600px) {
+  .timeline-entry__what-list {
+    columns: 2;
+  }
 }
 
 .timeline-entry__what {
