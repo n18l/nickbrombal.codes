@@ -159,17 +159,18 @@ main {
 }
 .chip-container {
   display: flex;
+  flex-wrap: wrap;
   font-size: 1.4em;
-  margin-block-start: -0.5em;
-  margin-inline-start: -0.5em;
+  margin-block-start: -0.35em;
+  margin-inline-start: -0.35em;
 }
 .chip-container__chip {
   background-color: hsl(0, 0%, 85%);
   border-radius: 3px;
   cursor: default;
   font-weight: 300;
-  margin-block-start: 0.5em;
-  margin-inline-start: 0.5em;
+  margin-block-start: 0.35em;
+  margin-inline-start: 0.35em;
   padding-block: 0.6em 0.4em;
   padding-inline: 0.6em;
 }
@@ -179,7 +180,6 @@ main {
 .expertise-area {
   align-items: center;
   display: flex;
-  margin-block-start: 1em;
 }
 .expertise-area + .expertise-area {
   margin-block-start: 1em;
