@@ -311,7 +311,7 @@ a:visited {
 
 @media screen and (min-width: 600px) {
   .expertise-area__examples {
-    margin-block-start: 0;
+    margin-block-start: -0.35em;
   }
 }
 
