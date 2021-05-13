@@ -33,11 +33,6 @@
   --color-divider: var(--color-grayscale-80);
   --color-chip-bg: var(--color-grayscale-85);
   --color-chip-text: var(--color-text-default);
-  --color-button-border: var(--color-grayscale-80);
-  --color-button-border-active: var(--color-grayscale-40);
-  --color-button-background: transparent;
-  --color-button-background-active: var(--color-grayscale-85);
-  --color-button-icon: var(--color-grayscale-40);
 }
 
 /* Dark mode colour settings */
@@ -54,11 +49,6 @@
     --color-divider: var(--color-stonescale-mute);
     --color-chip-bg: var(--color-stonescale-intense);
     --color-chip-text: var(--color-text-default);
-    --color-button-border: var(--color-stonescale-mute);
-    --color-button-border-active: var(--color-sandscale-dark);
-    --color-button-background: transparent;
-    --color-button-background-active: var(--color-stonescale-intense);
-    --color-button-icon: var(--color-sandscale-pale);
   }
 }
 
@@ -308,71 +298,4 @@ a:visited {
 
 .endorsement__detail__value {
   font-size: 1.4em;
-}
-
-.endorsement__detail__link-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-block-start: -0.5em;
-  margin-inline-start: -0.5em;
-  overflow: hidden;
-}
-
-.endorsement__detail__link-wrapper {
-  margin-block-start: 0.5em;
-  margin-inline-start: 0.5em;
-  overflow: hidden;
-}
-
-.endorsement__detail__link {
-  align-items: center;
-  background-color: var(--color-button-background);
-  border: 1px solid var(--color-button-border);
-  border-radius: 12px;
-  display: flex;
-  height: 48px;
-  padding-inline: 1em;
-  position: relative;
-}
-
-.endorsement__detail__link::before {
-  background-color: var(--color-button-background-active);
-  border: 1px solid var(--color-button-border-active);
-  border-radius: 12px;
-  content: "";
-  display: block;
-  height: calc(100%);
-  left: -1px;
-  opacity: 0;
-  position: absolute;
-  top: -1px;
-  transition: opacity 250ms;
-  width: calc(100%);
-}
-
-.endorsement__detail__link:focus {
-  outline: 0;
-}
-
-.endorsement__detail__link:focus::before,
-.endorsement__detail__link:hover::before,
-.endorsement__detail__link:active::before {
-  opacity: 1;
-}
-
-.endorsement__detail__link__icon {
-  fill: var(--color-button-icon);
-  flex: 0 0 16px;
-  height: 16px;
-  position: relative;
-}
-
-.endorsement__detail__link__text {
-  overflow: hidden;
-  position: relative;
-  text-overflow: ellipsis;
-}
-
-.endorsement__detail__link__icon + .endorsement__detail__link__text {
-  margin-inline-start: 0.35em;
 }
