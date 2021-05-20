@@ -82,8 +82,10 @@ main {
   flex-direction: column;
   margin: auto;
   max-width: 840px;
-  padding-block: 6em;
-  padding-inline: 2em;
+  padding-block-end: 6em;
+  padding-block-start: 6em;
+  padding-inline-end: 2em;
+  padding-inline-start: 2em;
 }
 
 a {
@@ -147,8 +149,10 @@ a:visited {
   cursor: default;
   margin-block-start: var(--chip-spacing);
   margin-inline-start: var(--chip-spacing);
-  padding-block: calc(0.6em - 1px);
-  padding-inline: calc(0.6em - 1px);
+  padding-block-end: calc(0.6em - 1px);
+  padding-block-start: calc(0.6em - 1px);
+  padding-inline-end: calc(0.6em - 1px);
+  padding-inline-start: calc(0.6em - 1px);
 }
 
 .quotation-block {
@@ -159,8 +163,10 @@ a:visited {
   font-size: 1.5em;
   line-height: 1.5;
   overflow: hidden;
-  padding-block: 1em;
-  padding-inline: 1em;
+  padding-block-end: 1em;
+  padding-block-start: 1em;
+  padding-inline-end: 1em;
+  padding-inline-start: 1em;
   position: relative;
 }
 
@@ -210,7 +216,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   margin-block-start: 6em;
-  padding-inline: 20px;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
 }
 
 @media print {
@@ -386,5 +393,6 @@ a:visited {
   border: 1px solid var(--color-divider);
   border-radius: 10px;
   max-width: 600px;
-  border-inline-width: 10px;
+  border-inline-end-width: 10px;
+  border-inline-start-width: 10px;
 }
