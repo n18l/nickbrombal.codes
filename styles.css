@@ -131,7 +131,7 @@ a:visited {
 }
 
 .chip-container {
-  --chip-spacing: 0.35em;
+  --chip-spacing: 0.425em;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4em;
