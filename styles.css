@@ -131,11 +131,12 @@ a:visited {
 }
 
 .chip-container {
+  --chip-spacing: 0.35em;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4em;
-  margin-block-start: -0.35em;
-  margin-inline-start: -0.35em;
+  margin-block-start: calc(var(--chip-spacing) * -1);
+  margin-inline-start: calc(var(--chip-spacing) * -1);
 }
 
 .chip-container__chip {
@@ -143,8 +144,8 @@ a:visited {
   border-radius: 3px;
   color: var(--color-chip-text);
   cursor: default;
-  margin-block-start: 0.35em;
-  margin-inline-start: 0.35em;
+  margin-block-start: var(--chip-spacing);
+  margin-inline-start: var(--chip-spacing);
   padding-block: 0.6em;
   padding-inline: 0.6em;
 }
@@ -242,13 +243,13 @@ a:visited {
   }
 }
 
-.expertise-area__examples {
-  margin-block-start: 0.35em;
+.expertise-area__examples-wrapper {
+  margin-block-start: 1em;
 }
 
 @media screen and (min-width: 600px) {
-  .expertise-area__examples {
-    margin-block-start: -0.35em;
+  .expertise-area__examples-wrapper {
+    margin-block-start: 0em;
   }
 }
 
