@@ -204,6 +204,12 @@ a:visited {
   padding-inline: 20px;
 }
 
+@media print {
+  .resume-section--epilogue {
+    display: none;
+  }
+}
+
 .expertise-area-list {
   margin-block-start: 1.5em;
 }
