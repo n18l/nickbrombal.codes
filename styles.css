@@ -177,6 +177,13 @@ a:visited {
   position: absolute;
 }
 
+@media print {
+  .quotation-block::before,
+  .quotation-block::after {
+    display: none;
+  }
+}
+
 .quotation-block::before {
   content: "\201C";
   top: -0.365em;
