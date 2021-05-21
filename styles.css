@@ -81,7 +81,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 840px;
+  max-inline-size: 840px;
   padding-block-end: 6em;
   padding-block-start: 6em;
   padding-inline-end: 2em;
@@ -394,7 +394,7 @@ a:visited {
   padding: 1em;
   border: 1px solid var(--color-divider);
   border-radius: 10px;
-  max-width: 600px;
+  max-inline-size: 600px;
   border-inline-end-width: 10px;
   border-inline-start-width: 10px;
 }
