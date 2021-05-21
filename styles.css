@@ -345,14 +345,19 @@ a:visited {
 }
 
 .timeline-entry__what {
-  display: inline-flex;
-  margin-block-start: 0.5em;
+  break-inside: avoid;
+  display: flex;
+  padding-block-start: 0.5em;
   padding-inline-start: 1em;
 }
 
 .timeline-entry__what::before {
   content: "\2022";
   margin-inline-end: 0.5em;
+}
+
+.timeline-entry__what > * {
+  break-inside: avoid;
 }
 
 .endorsement-list {
