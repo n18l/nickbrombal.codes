@@ -97,6 +97,14 @@ a:visited {
   color: var(--color-link-visited);
 }
 
+@media print {
+  a,
+  a:visited {
+    color: var(--color-text-default);
+    text-decoration: none;
+  }
+}
+
 .heading {
   color: var(--color-heading-default);
   font-family: var(--font-family-heading);
