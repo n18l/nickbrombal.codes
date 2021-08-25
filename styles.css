@@ -79,8 +79,6 @@ body {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   margin: auto;
   max-inline-size: 840px;
   padding-block-end: 6em;
@@ -280,6 +278,7 @@ a:visited {
 }
 
 .timeline-entry {
+  break-inside: avoid-page;
   display: grid;
   grid-template-areas:
     "title"
@@ -371,6 +370,10 @@ a:visited {
 
 .endorsement-list {
   margin-block-start: 2em;
+}
+
+.endorsement {
+  break-inside: avoid-page;
 }
 
 .endorsement + .endorsement {
