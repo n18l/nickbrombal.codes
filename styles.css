@@ -101,6 +101,10 @@ a:visited {
     color: var(--color-text-default);
     text-decoration: none;
   }
+
+  a[href]::after {
+    content: ' (' attr(href) ')';
+  }
 }
 
 .heading {
