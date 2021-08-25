@@ -143,6 +143,32 @@ a:visited {
   font-weight: 500;
 }
 
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name__full {
+  white-space: nowrap;
+  margin-inline-start: -0.05em;
+}
+
+.name__pronouns {
+  font-size: 0.5em;
+}
+
+@media print, screen and (min-width: 600px) {
+  .name {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .name__pronouns {
+    margin-inline-start: 0.625em;
+    margin-block-end: 0.2em;
+  }
+}
+
 .chip-container {
   --chip-spacing: 0.425em;
   display: flex;
