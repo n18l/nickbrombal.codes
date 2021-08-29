@@ -252,21 +252,6 @@ a:visited {
   scroll-margin-block-start: 2em;
 }
 
-.resume-section--epilogue {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-block-start: 6em;
-  padding-inline-end: 20px;
-  padding-inline-start: 20px;
-}
-
-@media print {
-  .resume-section--epilogue {
-    display: none;
-  }
-}
-
 .expertise-area-list {
   margin-block-start: 1.5em;
 }
@@ -529,6 +514,22 @@ a:visited {
 
 .endorsement__detail__value {
   font-size: 1.4em;
+}
+
+.epilogue-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 6em;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+  scroll-margin-block-start: 2em;
+}
+
+@media print {
+  .epilogue-wrapper {
+    display: none;
+  }
 }
 
 .epilogue {
