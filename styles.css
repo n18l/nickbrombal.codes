@@ -102,8 +102,8 @@ a:visited {
     text-decoration: none;
   }
 
-  a[href]::after {
-    content: ' (' attr(href) ')';
+  a[data-printable]::after {
+    content: " (" attr(href) ")";
   }
 }
 
