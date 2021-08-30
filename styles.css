@@ -543,6 +543,10 @@ a:visited {
   border-inline-start-width: 10px;
 }
 
+.unbreakable {
+  break-inside: avoid-page;
+}
+
 [data-display-when="printing"] {
   display: none;
 }
