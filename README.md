@@ -1,6 +1,6 @@
 # nickbrombal.codes
 
-<img src="https://img.shields.io/tokei/lines/github/nbrombal/nbrombal.github.io?style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/nbrombal/nbrombal.github.io?style=for-the-badge">
+<img src="https://img.shields.io/github/last-commit/nbrombal/nbrombal.github.io?style=for-the-badge">
 
 Hey there! You've found the repo for [my personal CV website](https://nickbrombal.codes). I can't pretend it's particularly exciting, but feel free to poke around.
 
