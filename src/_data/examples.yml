@@ -35,7 +35,7 @@
     - https://nickbrombal.codes/
     - https://github.com/n18l/nbrombal.github.io
   description: The work history and qualifications of Nick Brombal, interactive developer and all-around swell human being.
-  tags: [HTML5, CSS3+, GitHub Pages]
+  tags: [HTML, CSS, Eleventy, Nunjucks, GitHub Pages]
   action:
     label: View Source
     url: https://github.com/n18l/nbrombal.github.io

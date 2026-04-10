@@ -54,7 +54,16 @@ description: The work history and qualifications of Nick Brombal, senior softwar
   <section class="timeline-entry">
     <h3 class="heading heading--subsection-title timeline-entry__who-where">
       <span class="timeline-entry__who">{{ job.title }}</span>
-      <span class="timeline-entry__where">at <a href="{{ job.url }}" target="_blank" rel="noreferrer" data-printable>{{ job.company }}</a></span>
+      <span class="timeline-entry__where">
+        {% if job.url %}
+        at <a href="{{ job.url }}" target="_blank" rel="noreferrer" data-printable>{{ job.company }}</a>
+        {% else %}
+        at {{ job.company }}
+        {% endif %}
+        {% if job.company_prior_name %}
+        (formerly {{ job.company_prior_name }})
+        {% endif %}
+      </span>
     </h3>
 
     <div class="timeline-entry__when">{{ job.start }} – {{ job.end }}</div>
@@ -75,7 +84,14 @@ description: The work history and qualifications of Nick Brombal, senior softwar
   <section class="timeline-entry">
     <h3 class="heading heading--subsection-title timeline-entry__who-where">
       <span class="timeline-entry__who">{{ program.course }}</span>
-      <span class="timeline-entry__where">at <a href="{{ program.url }}" target="_blank" rel="noreferrer" data-printable>{{ program.institution }}</a></span>
+
+      <span class="timeline-entry__where">
+        {% if program.url %}
+        at <a href="{{ program.url }}" target="_blank" rel="noreferrer" data-printable>{{ program.institution }}</a>
+        {% else %}
+        at {{ program.institution }}
+        {% endif %}
+      </span>
     </h3>
 
     <div class="timeline-entry__when">{{ program.start }} – {{ program.end }}</div>
@@ -135,14 +151,14 @@ description: The work history and qualifications of Nick Brombal, senior softwar
   <h2 class="heading heading--section-title">Endorsements</h2>
 
   <ul class="endorsement-list">
-    {% for endorsement in endorsements %}
+    {% for coworker in endorsements %}
     <li class="endorsement">
       <h3 class="heading heading--subsection-title endorsement__name">
-        {{ endorsement.name }}
+        {{ coworker.name }}
       </h3>
 
       <blockquote class="endorsement__quote quotation-block">
-        {% for paragraph in endorsement.quote %}
+        {% for paragraph in coworker.quote %}
         <p>{{ paragraph }}</p>
       {% endfor %}
       </blockquote>
@@ -155,7 +171,7 @@ description: The work history and qualifications of Nick Brombal, senior softwar
             Relationship
           </h4>
           <div class="endorsement__detail__value">
-            {{ endorsement.relationship }}
+            {{ coworker.relationship }}
           </div>
         </div>
 
@@ -165,7 +181,7 @@ description: The work history and qualifications of Nick Brombal, senior softwar
           >
             Known Since
           </h4>
-          <div class="endorsement__detail__value">{{ endorsement.known_since }}</div>
+          <div class="endorsement__detail__value">{{ coworker.known_since }}</div>
         </div>
       </div>
     </li>

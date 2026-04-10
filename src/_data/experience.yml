@@ -1,6 +1,7 @@
 - title: Senior Software Engineer
-  company: Dialexa
-  url: https://www.dialexa.com/
+  company: IBM Consulting
+  company_prior_name: Dialexa
+  url: https://www.ibm.com/consulting
   start: May 2022
   end: Today
   highlights:
@@ -10,8 +11,9 @@
     - Perform cross-disciplinary consultation in web development-related areas including UI/UX design, accessibility, security, and performance optimization.
 
 - title: Senior Interactive Developer
-  company: Hawkeye Agency
-  url:
+  company: Publicis Groupe
+  company_prior_name: Hawkeye Agency
+  url: https://www.publicisgroupe.com/en/
   start: May 2017
   end: May 2022
   highlights:
@@ -22,7 +24,7 @@
 
 - title: Front-End Developer
   company: Commerce House
-  url:
+  url: https://www.commercehouse.com/
   start: March 2015
   end: May 2017
   highlights:
@@ -31,7 +33,7 @@
 
 - title: Server Operations Specialist
   company: IBM Corporation
-  url:
+  url: https://www.ibm.com/
   start: April 2012
   end: February 2015
   highlights:
