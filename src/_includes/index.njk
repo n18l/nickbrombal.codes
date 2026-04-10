@@ -1,0 +1,188 @@
+---
+layout: base.njk
+title: Nick Brombal, Senior Software Engineer
+description: The work history and qualifications of Nick Brombal, senior software engineer and all-around swell human being.
+---
+
+<header>
+  <div class="name-and-title">
+    <h1 class="heading heading--page-title">
+      <span class="name">
+        <span class="name__full">Nick Brombal</span>
+        <span class="name__pronouns">(he/him/his)</span>
+      </span>
+    </h1>
+
+    <h2 class="heading heading--page-subtitle">Senior Software Engineer</h2>
+  </div>
+
+  <picture class="photo-wrapper">
+    <source srcset="images/nick.avif" type="image/avif" />
+    <source srcset="images/nick.webp" type="image/webp" />
+    <img
+      class="photo"
+      src="images/nick.jpg"
+      alt="A friendly (and probably very talented) developer named Nick Brombal, wearing a winsome smile."
+      width="120"
+    />
+  </picture>
+</header>
+
+<section id="expertise" class="resume-section">
+  <h2 class="heading heading--section-title">Expertise</h2>
+
+  <ul class="expertise-area-list">
+    {% for area in expertise %}
+    <li class="expertise-area">
+      <h3 class="heading heading--subsection-line-title expertise-area__name">{{ area.name }}</h3>
+      <div class="expertise-area__examples-wrapper">
+        <ul class="expertise-area__examples chip-container">
+          {% for item in area.items %}
+          <li class="chip-container__chip">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="experience" class="resume-section">
+  <h2 class="heading heading--section-title">Experience</h2>
+
+  {% for job in experience %}
+  <section class="timeline-entry">
+    <h3 class="heading heading--subsection-title timeline-entry__who-where">
+      <span class="timeline-entry__who">{{ job.title }}</span>
+      <span class="timeline-entry__where">at <a href="{{ job.url }}" target="_blank" rel="noreferrer" data-printable>{{ job.company }}</a></span>
+    </h3>
+
+    <div class="timeline-entry__when">{{ job.start }} – {{ job.end }}</div>
+
+    <ul class="timeline-entry__what-list">
+      {% for highlight in job.highlights %}
+      <li class="timeline-entry__what"><p>{{ highlight }}</p></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</section>
+
+<section id="education" class="resume-section unbreakable">
+  <h2 class="heading heading--section-title">Education</h2>
+
+  {% for program in education %}
+  <section class="timeline-entry">
+    <h3 class="heading heading--subsection-title timeline-entry__who-where">
+      <span class="timeline-entry__who">{{ program.course }}</span>
+      <span class="timeline-entry__where">at <a href="{{ program.url }}" target="_blank" rel="noreferrer" data-printable>{{ program.institution }}</a></span>
+    </h3>
+
+    <div class="timeline-entry__when">{{ program.start }} – {{ program.end }}</div>
+
+    <ul class="timeline-entry__what-list">
+      {% for highlight in program.highlights %}
+      <li class="timeline-entry__what">
+        <p>{{ program.highlight }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</section>
+
+<section id="examples" class="resume-section">
+  <h2 class="heading heading--section-title">Examples</h2>
+
+  <ul class="example-list">
+    {% for example in examples %}
+    <li class="example">
+      <div class="example__detail-container">
+        <h3 class="heading heading--subsection-title example__name">{{ example.name }}</h3>
+
+        {% if example.print_urls %}
+        {% for url in example.print_urls %}
+        <div class="example__url-wrapper" data-display-when="printing">
+          <span class="example__url">{{ url }}</span>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        <div class="example__description-wrapper">
+          <span class="example__description">{{ example.description }}</span>
+        </div>
+
+        <div class="example__tag-wrapper">
+          <ul class="chip-container">
+            {% for tag in example.tags %}
+            <li class="chip-container__chip">{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      {% if example.action %}
+      <div class="example__action-container" data-display-when="not-printing">
+        <a class="example__action" href="{{ example.action.url }}">{{ example.action.label }}</a>
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="endorsements" class="resume-section">
+  <h2 class="heading heading--section-title">Endorsements</h2>
+
+  <ul class="endorsement-list">
+    {% for endorsement in endorsements %}
+    <li class="endorsement">
+      <h3 class="heading heading--subsection-title endorsement__name">
+        {{ endorsement.name }}
+      </h3>
+
+      <blockquote class="endorsement__quote quotation-block">
+        {% for paragraph in endorsement.quote %}
+        <p>{{ paragraph }}</p>
+      </blockquote>
+
+      <div class="endorsement__detail-container">
+        <div class="endorsement__detail endorsement__relationship">
+          <h4
+            class="heading heading--subsection-line-title endorsement__detail__title"
+          >
+            Relationship
+          </h4>
+          <div class="endorsement__detail__value">
+            {{ endorsement.relationship }}
+          </div>
+        </div>
+
+        <div class="endorsement__detail endorsement__tenure">
+          <h4
+            class="heading heading--subsection-line-title endorsement__detail__title"
+          >
+            Known Since
+          </h4>
+          <div class="endorsement__detail__value">{{ endorsement.known_since }}</div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<div id="epilogue" class="epilogue-wrapper">
+  <div class="epilogue">
+    <p>
+      If you think I'm the right choice for your position or project and would
+      like to get in touch with me or my references, please reach out via
+      <a
+        href="https://www.linkedin.com/in/nbrombal/"
+        target="_blank"
+        rel="noreferrer"
+        >my LinkedIn profile</a
+      >. I'm excited to hear from you!
+    </p>
+  </div>
+</div>

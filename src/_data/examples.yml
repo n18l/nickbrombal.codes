@@ -1,0 +1,48 @@
+- name: Property IQ
+  description: A custom map-based application that curates Link Logistics' many disparate data sources into an intuitive visual interface, complete with market and property analysis tools.
+  tags: [TypeScript, React, Tailwind, Node.js, Azure]
+  action:
+    label: About This Client
+    url: https://www.linklogistics.com/about/
+
+- name: Merlin
+  description: A data visualization and reporting suite that helps hospitals identify and resolve bottlenecks in the efficiency of their surgeons and operating rooms.
+  tags: [TypeScript, React, Tailwind, Python]
+  action:
+    label: About This Client
+    url: https://www.surgicaldirections.com/about-us/
+
+- name: Disney Rewards
+  print_urls:
+    - https://disneyrewards.com/
+  description: The happiest place on the web to learn about or manage your Disney Rewards Visa Card.
+  tags: [WordPress, React, PHP7]
+  action:
+    label: Visit Site
+    url: https://disneyrewards.com/
+
+- name: The Unwritten Rules Project
+  print_urls:
+    - https://unwrittenrulesproject.com/
+  description: Shining a light on the unfair social expectations placed on the Black community in America and the ways you can help.
+  tags: [WordPress, Vue.js, PHP7]
+  action:
+    label: Visit Site
+    url: https://unwrittenrulesproject.com/
+
+- name: Nick Brombal Codes
+  print_urls:
+    - https://nickbrombal.codes/
+    - https://github.com/n18l/nbrombal.github.io
+  description: The work history and qualifications of Nick Brombal, interactive developer and all-around swell human being.
+  tags: [HTML5, CSS3+, GitHub Pages]
+  action:
+    label: View Source
+    url: https://github.com/n18l/nbrombal.github.io
+
+- name: Search Tailor
+  description: A browser extension for quickly and easily identifying the search results that matter to you.
+  tags: [Vanilla JS, WebExtension, Firefox, Chrome]
+  action:
+    label: View Source
+    url: https://github.com/n18l/search-tailor

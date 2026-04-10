@@ -1,0 +1,46 @@
+- name: Languages
+  items:
+    - HTML5+
+    - CSS3+
+    - JavaScript (ES6+, JSX, Node.js)
+    - TypeScript
+    - PHP7+
+
+- name: Frameworks
+  items:
+    - React
+    - Vue.js
+    - Next.js
+    - Ember
+    - Electron
+
+- name: Workflow Libraries
+  items:
+    - Webpack
+    - Parcel
+    - Gulp
+    - Babel
+    - Sass/SCSS/Tailwind
+    - Pug
+    - jQuery
+
+- name: Tools & Programs
+  items:
+    - git
+    - npm
+    - Composer
+    - Docker
+    - Vagrant
+    - Sketch
+    - Figma
+    - Photoshop
+    - Illustrator
+    - SQL
+
+- name: Services
+  items:
+    - GitHub
+    - GitLab
+    - Azure
+    - BitBucket
+    - Jira
