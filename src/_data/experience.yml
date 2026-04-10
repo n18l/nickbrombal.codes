@@ -1,0 +1,39 @@
+- title: Senior Software Engineer
+  company: Dialexa
+  url: https://www.dialexa.com/
+  start: May 2022
+  end: Today
+  highlights:
+    - Lead, manage, mentor, and support teams of software and quality engineers during client engagements.
+    - Develop foundational project elements including generic front-end components, CI/CD pipelines, architectural diagrams, cloud-based infrastructure, and onboarding documentation.
+    - Establish, collaborate on, document, and oversee team code standards and best practices.
+    - Perform cross-disciplinary consultation in web development-related areas including UI/UX design, accessibility, security, and performance optimization.
+
+- title: Senior Interactive Developer
+  company: Hawkeye Agency
+  url:
+  start: May 2017
+  end: May 2022
+  highlights:
+    - Architected, implemented, and improved complex front-end systems for several major accounts, including high-stakes clients like Disney and the University of Cincinnati.
+    - Set project standards and oversaw development team code reviews and status meetings.
+    - Tightly coordinated with and provided subject matter expertise to creative, UX, content, analytics, and management teams.
+    - Advocated for and delivered accessible, documented, and maintainable websites and applications.
+
+- title: Front-End Developer
+  company: Commerce House
+  url:
+  start: March 2015
+  end: May 2017
+  highlights:
+    - Developed and maintained client websites and applications across several large brands, such as Pizza Hut and The Dallas Morning News.
+    - Helped rework internal development practices to increase efficiency and maintainability of current and future projects.
+
+- title: Server Operations Specialist
+  company: IBM Corporation
+  url:
+  start: April 2012
+  end: February 2015
+  highlights:
+    - Monitored server hardware for high-sensitivity bank and corporate customer accounts.
+    - Coordinated company representatives and support resources to address equipment failures and service interruptions in a timely and professional manner.
