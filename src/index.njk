@@ -112,6 +112,7 @@ description: The work history and qualifications of Nick Brombal, senior softwar
 
   <ul class="example-list">
     {% for example in examples %}
+    {% if example.display %}
     <li class="example">
       <div class="example__detail-container">
         <h3 class="heading heading--subsection-title example__name">{{ example.name }}</h3>
@@ -128,6 +129,7 @@ description: The work history and qualifications of Nick Brombal, senior softwar
           <span class="example__description">{{ example.description }}</span>
         </div>
 
+        {% if example.tags.length > 0 %}
         <div class="example__tag-wrapper">
           <ul class="chip-container">
             {% for tag in example.tags %}
@@ -135,23 +137,26 @@ description: The work history and qualifications of Nick Brombal, senior softwar
             {% endfor %}
           </ul>
         </div>
+        {% endif %}
       </div>
 
-      {% if example.action %}
+      {% if example.action and example.action.label and example.action.url %}
       <div class="example__action-container" data-display-when="not-printing">
         <a class="example__action" href="{{ example.action.url }}">{{ example.action.label }}</a>
       </div>
       {% endif %}
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </section>
 
-<section id="endorsements" class="resume-section">
+<section id="endorsements" class="resume-section break-before-page">
   <h2 class="heading heading--section-title">Endorsements</h2>
 
   <ul class="endorsement-list">
     {% for coworker in endorsements %}
+    {% if coworker.display %}
     <li class="endorsement">
       <h3 class="heading heading--subsection-title endorsement__name">
         {{ coworker.name }}
@@ -185,6 +190,7 @@ description: The work history and qualifications of Nick Brombal, senior softwar
         </div>
       </div>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </section>

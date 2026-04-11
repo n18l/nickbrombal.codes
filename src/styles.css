@@ -84,7 +84,7 @@ body {
 header {
   display: grid;
   gap: 15px;
-  grid-template: 
+  grid-template:
     "photo"          auto
     "name-and-title" minmax(auto, 120px);
   text-align: center;
@@ -121,6 +121,10 @@ a {
 
 a:visited {
   color: var(--color-link-visited);
+}
+
+p + p {
+  margin-block-start: 0.5em;
 }
 
 @media print {
@@ -591,6 +595,10 @@ a:visited {
 
 .unbreakable {
   break-inside: avoid-page;
+}
+
+.break-before-page {
+  break-before: page;
 }
 
 [data-display-when="printing"] {

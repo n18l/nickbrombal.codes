@@ -5,6 +5,8 @@
     - JavaScript (ES6+, Node.js)
     - TypeScript
     - Python
+    - SQL
+    - GraphQL
 
 - name: Frameworks
   items:
@@ -39,7 +41,7 @@
     - Mural
     - Photoshop
     - Illustrator
-    - SQL
+    - MySQL
     - Postgres
 
 - name: Platforms

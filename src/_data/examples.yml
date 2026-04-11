@@ -1,9 +1,50 @@
-- name: Property IQ
-  description: A custom map-based application that curates Link Logistics' many disparate data sources into an intuitive visual interface, complete with market and property analysis tools.
-  tags: [TypeScript, React, Tailwind, Node.js, Azure]
+- name: Elevance
+  description: Refactor, deployment, and documentation of a critical proof-of-concept application demonstrating AI-assisted review of insurance claim pre-authorization requests.
+  tags: [AI, React, Python, Azure]
+  action:
+    label: About This Client
+    url: https://www.elevancehealth.com/who-we-are
+  display: true
+
+- name: YETI Coolers
+  description: Comprehensive performance audit of YETI's product customization web application, resulting in an exhaustive roadmap for updating front-end architecture, optimizing asset delivery, and improving user experience.
+  tags: [Web Optimization, Performance Analysis]
+  action:
+    label: About This Client
+    url: https://www.yeti.com/stories/our-story.html
+  display: true
+
+- name: DNTL Life
+  description: Design and implementation of an administrative practice and user management interface for DNTL OS, a dental practice operations platform that provides analytics and data visualization for practice performance.
+  tags: [TypeScript, Next.js, Node.js, Tailwind, AWS, Postgres]
+  action:
+    label: About This Client
+    url: https://www.dntl.life/
+  display: true
+
+- name: Altice USA
+  description: Design and implementation of a new buy-flow for Altice's Optimum Internet/Phone/TV service, where customers can build and purchase a highly customized service package based on options available in their area.
+  tags: [TypeScript, React, SCSS]
+  action:
+    label: About This Client
+    url: https://www.optimum.com/about-us/
+  display: true
+
+- name: CPI
+  description: Design and implementation of Slate, a platform for finance industry recruiters to comprehensively onboard and collaboratively manage, analyze, search for, and place candidates at new positions for client firms.
+  tags: [TypeScript, React, Tailwind, Node.js, GraphQL, Azure]
+  action:
+    label: About This Client
+    url: https://www.cpiny.com/
+  display: true
+
+- name: Link Logistics
+  description: Design and Implementation of Property IQ, a custom map-based application to curate the client's many disparate data sources into an intuitive visual interface, complete with market and property analysis tools.
+  tags: [TypeScript, React, Tailwind, Node.js, Azure, SQL]
   action:
     label: About This Client
     url: https://www.linklogistics.com/about/
+  display: true
 
 - name: Merlin
   description: A data visualization and reporting suite that helps hospitals identify and resolve bottlenecks in the efficiency of their surgeons and operating rooms.
@@ -11,6 +52,7 @@
   action:
     label: About This Client
     url: https://www.surgicaldirections.com/about-us/
+  display: false
 
 - name: Disney Rewards
   print_urls:
@@ -20,29 +62,33 @@
   action:
     label: Visit Site
     url: https://disneyrewards.com/
+  display: false
 
 - name: The Unwritten Rules Project
   print_urls:
     - https://unwrittenrulesproject.com/
   description: Shining a light on the unfair social expectations placed on the Black community in America and the ways you can help.
-  tags: [WordPress, Vue.js, PHP7]
+  tags: [WordPress, Vue.js, PHP]
   action:
     label: Visit Site
     url: https://unwrittenrulesproject.com/
+  display: false
 
 - name: Nick Brombal Codes
   print_urls:
     - https://nickbrombal.codes/
-    - https://github.com/n18l/nbrombal.github.io
+    - https://github.com/n18l/nickbrombal.codes
   description: The work history and qualifications of Nick Brombal, interactive developer and all-around swell human being.
   tags: [HTML, CSS, Eleventy, Nunjucks, GitHub Pages]
   action:
     label: View Source
-    url: https://github.com/n18l/nbrombal.github.io
+    url: https://github.com/n18l/nickbrombal.codes
+  display: false
 
 - name: Search Tailor
   description: A browser extension for quickly and easily identifying the search results that matter to you.
-  tags: [Vanilla JS, WebExtension, Firefox, Chrome]
+  tags: [Vanilla JS, WebExtension]
   action:
     label: View Source
     url: https://github.com/n18l/search-tailor
+  display: false
