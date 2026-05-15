@@ -21,6 +21,7 @@
   items:
     - Vite
     - Webpack
+    - Storybook
     - Sass/SCSS
     - Tailwind
     - Nunjucks
