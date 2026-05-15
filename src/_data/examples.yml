@@ -1,5 +1,5 @@
 - name: Elevance
-  description: Refactor, deployment, and documentation of a critical proof-of-concept application demonstrating AI-assisted review of insurance claim pre-authorization requests.
+  description: Rescued a defunct AI-assisted insurance pre-authorization proof-of-concept, restoring it to working order for a high-priority RFP. Enhanced the Python back-end to handle remote API requests, automated front- and back-end deployments to Azure, and authored comprehensive onboarding documentation.
   tags: [AI, React, Python, Azure]
   action:
     label: About This Client
@@ -7,7 +7,7 @@
   display: true
 
 - name: YETI Coolers
-  description: Comprehensive performance audit of YETI's product customization web application, resulting in an exhaustive roadmap for updating front-end architecture, optimizing asset delivery, and improving user experience.
+  description: Led a three-person team through performance audits and architecture analysis of YETI's consumer-facing product customizer, producing a roadmap that identified 85+% bundle size reductions through proper data/UI separation, along with large UI and developer productivity gains via migration from jQuery to a declarative framework and standardized build tooling.
   tags: [Web Optimization, Performance Analysis]
   action:
     label: About This Client
@@ -15,7 +15,7 @@
   display: true
 
 - name: DNTL Life
-  description: Design and implementation of an administrative practice and user management interface for DNTL OS, a dental practice operations platform that provides analytics and data visualization for practice performance.
+  description: Served as Engineering Lead on DNTL OS, a dental practice analytics and operations platform, building the practice and user management interface end-to-end (front-end components and state management in React and Next.js, and back-end APIs in Node.js and Postgres) while coordinating team workloads, conducting code reviews, and managing client communication on engineering topics.
   tags: [TypeScript, Next.js, Node.js, Tailwind, AWS, Postgres]
   action:
     label: About This Client
@@ -23,7 +23,7 @@
   display: true
 
 - name: Altice USA
-  description: Design and implementation of a new buy-flow for Altice's Optimum Internet/Phone/TV service, where customers can build and purchase a highly customized service package based on options available in their area.
+  description: Refactored React and Remix components to meet engineering best practices on Altice's Optimum buy-flow, a customizable Internet, Phone, and TV service purchase experience. Conducted a comprehensive security audit of all static analysis findings to achieve client compliance standards, and supported a clean project hand-off through thorough documentation review.
   tags: [TypeScript, React, SCSS]
   action:
     label: About This Client
@@ -31,7 +31,7 @@
   display: true
 
 - name: CPI
-  description: Design and implementation of Slate, a platform for finance industry recruiters to comprehensively onboard and collaboratively manage, analyze, search for, and place candidates at new positions for client firms.
+  description: Led a 4-person front-end team in building Slate, a custom recruitment management platform for a top-tier investment recruiting firm. Delivered up to 70% faster placement workflows, 50%+ faster candidate database search, and a ~300% increase in intake form completion rates.
   tags: [TypeScript, React, Tailwind, Node.js, GraphQL, Azure]
   action:
     label: About This Client
@@ -39,7 +39,7 @@
   display: true
 
 - name: Link Logistics
-  description: Design and Implementation of Property IQ, a custom map-based application to curate the client's many disparate data sources into an intuitive visual interface, complete with market and property analysis tools.
+  description: Led a 7-9 person team in building Property IQ, a Mapbox-driven portfolio explorer for a real estate manager whose properties handle more than 5% of U.S. GDP annually. Unified data from Snowflake warehouses and over a dozen legacy sources into a mobile-optimized interface that became the most-used tool among Link's sales and research teams.
   tags: [TypeScript, React, Tailwind, Node.js, Azure, SQL]
   action:
     label: About This Client
