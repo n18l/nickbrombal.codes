@@ -85,7 +85,7 @@ header {
   display: grid;
   gap: 15px;
   grid-template:
-    "photo"          auto
+    "photo" auto
     "name-and-title" minmax(auto, 120px);
   text-align: center;
 }
@@ -300,6 +300,19 @@ p + p {
 .resume-section {
   margin-block-start: 4em;
   scroll-margin-block-start: 2em;
+
+  &#summary {
+    margin-block-start: 2.5em;
+  }
+}
+
+.summary {
+  font-size: 1.6em;
+  line-height: 1.4;
+
+  @media print, screen and (min-width: 600px) & {
+    font-size: 1.4em;
+  }
 }
 
 .expertise-area-list {
