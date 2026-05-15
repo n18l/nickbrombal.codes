@@ -16,7 +16,7 @@
 
 - name: DNTL Life
   description: Served as Engineering Lead on DNTL OS, a dental practice analytics and operations platform, building the practice and user management interface end-to-end (front-end components and state management in React and Next.js, and back-end APIs in Node.js and Postgres) while coordinating team workloads, conducting code reviews, and managing client communication on engineering topics.
-  tags: [TypeScript, Next.js, Node.js, Tailwind, AWS, Postgres]
+  tags: [TypeScript, React, Next.js, Node.js, Tailwind, AWS, Postgres]
   action:
     label: About This Client
     url: https://www.dntl.life/
@@ -24,7 +24,7 @@
 
 - name: Altice USA
   description: Refactored React and Remix components to meet engineering best practices on Altice's Optimum buy-flow, a customizable Internet, Phone, and TV service purchase experience. Conducted a comprehensive security audit of all static analysis findings to achieve client compliance standards, and supported a clean project hand-off through thorough documentation review.
-  tags: [TypeScript, React, SCSS]
+  tags: [TypeScript, React, Remix, SCSS]
   action:
     label: About This Client
     url: https://www.optimum.com/about-us/
@@ -40,7 +40,7 @@
 
 - name: Link Logistics
   description: Led a 7-9 person team in building Property IQ, a Mapbox-driven portfolio explorer for a real estate manager whose properties handle more than 5% of U.S. GDP annually. Unified data from Snowflake warehouses and over a dozen legacy sources into a mobile-optimized interface that became the most-used tool among Link's sales and research teams.
-  tags: [TypeScript, React, Tailwind, Node.js, Azure, SQL]
+  tags: [TypeScript, React, Tailwind, Node.js, Mapbox, Azure, SQL]
   action:
     label: About This Client
     url: https://www.linklogistics.com/about/

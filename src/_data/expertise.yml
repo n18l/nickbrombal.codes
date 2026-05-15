@@ -14,42 +14,33 @@
     - Vue.js
     - Next.js
     - Remix
-    - Electron
     - Express
     - Flask
 
-- name: Workflow Libraries
+- name: Build & CSS Tooling
   items:
     - Vite
     - Webpack
-    - Parcel
-    - Gulp
-    - Babel
     - Sass/SCSS
     - Tailwind
-    - Pug
     - Nunjucks
-    - ejs
 
-- name: Tools & Programs
+- name: Databases & ORMs
   items:
-    - git
-    - npm
-    - Docker
-    - Sketch
-    - Figma
-    - Mural
-    - Photoshop
-    - Illustrator
     - MySQL
     - Postgres
+    - Prisma
 
-- name: Platforms
+- name: Cloud & Platforms
   items:
+    - Azure
+    - AWS
+    - Docker
+    - GitHub Actions
+    - Azure DevOps
     - GitHub
     - GitLab
     - BitBucket
-    - Azure
-    - AWS
     - Vercel
     - Netlify
+    - Figma
