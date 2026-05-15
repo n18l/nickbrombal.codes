@@ -5,10 +5,10 @@
   start: May 2022
   end: Today
   highlights:
-    - Lead, manage, mentor, and support teams of software and quality engineers during client engagements.
-    - Develop foundational project elements including generic front-end components, CI/CD pipelines, architectural diagrams, cloud-based infrastructure, and onboarding documentation.
-    - Establish, collaborate on, document, and oversee team code standards and best practices.
-    - Perform cross-disciplinary consultation in web development-related areas including UI/UX design, accessibility, security, and performance optimization.
+    - Lead teams of engineers across multiple concurrent client engagements, taking ownership of front-end architecture, technical direction, and delivery quality from kickoff through handoff.
+    - Drive code quality through standards-setting, code reviews, dependency and security audits, and direct mentorship of junior and mid-level engineers.
+    - Build foundational project infrastructure for each engagement—CI/CD pipelines, cloud deployments, reusable component libraries, and onboarding documentation—establishing consistent standards and reducing ramp-up time.
+    - Serve as primary technical point of contact for client stakeholders on UI/UX, accessibility, performance, and security topics across all engagements.
 
 - title: Senior Interactive Developer
   company: Publicis Groupe
@@ -17,10 +17,10 @@
   start: May 2017
   end: May 2022
   highlights:
-    - Architected, implemented, and improved complex front-end systems for several major accounts, including high-stakes clients like Disney and the University of Cincinnati.
-    - Set project standards and oversaw development team code reviews and status meetings.
-    - Tightly coordinated with and provided subject matter expertise to creative, UX, content, analytics, and management teams.
-    - Advocated for and delivered accessible, documented, and maintainable websites and applications.
+    - Served as principal front-end engineer on Disney Rewards Visa from initial architecture through five years of ongoing maintenance, building a React application integrated with Chase's account management API and a custom page builder for Disney's content team.
+    - Earned recognition from Disney's internal engineering team for adherence to their development standards—an uncommon distinction for an external vendor.
+    - Architected and built a new website for University of Cincinnati Health; separately, restored a legacy Bohemia Beer site to production-ready condition by reverse-engineering its compiled codebase.
+    - Established front-end code standards across accounts, led code reviews, and consulted directly with client and partner engineering teams on features and technical decisions.
 
 - title: Front-End Developer
   company: Commerce House
@@ -28,5 +28,5 @@
   start: March 2015
   end: May 2017
   highlights:
-    - Developed and maintained client websites and applications across several large brands, such as Pizza Hut and The Dallas Morning News.
-    - Helped rework internal development practices to increase efficiency and maintainability of current and future projects.
+    - Developed client applications for major brands including a mobile webview app for The Dallas Morning News deployed on iOS and Android, and an interactive character-driven chat experience for Pizza Hut's Book It! reading program.
+    - Standardized internal development practices to improve efficiency and long-term maintainability across the agency's client work.
