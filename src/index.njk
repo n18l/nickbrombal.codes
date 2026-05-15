@@ -107,6 +107,33 @@ description: The work history and qualifications of Nick Brombal, senior softwar
   {% endfor %}
 </section>
 
+{% set hasCerts = false %}
+{% for cert in certifications %}{% if cert.display %}{% set hasCerts = true %}{% endif %}{% endfor %}
+{% if hasCerts %}
+<section id="certifications" class="resume-section unbreakable">
+  <h2 class="heading heading--section-title">Certifications</h2>
+
+  {% for cert in certifications %}
+  {% if cert.display %}
+  <section class="timeline-entry">
+    <h3 class="heading heading--subsection-title timeline-entry__who-where">
+      <span class="timeline-entry__who">{{ cert.name }}</span>
+      <span class="timeline-entry__where">
+        {% if cert.url %}
+        from <a href="{{ cert.url }}" target="_blank" rel="noreferrer" data-printable>{{ cert.issuer }}</a>
+        {% else %}
+        from {{ cert.issuer }}
+        {% endif %}
+      </span>
+    </h3>
+
+    <div class="timeline-entry__when">Issued {{ cert.issued }}</div>
+  </section>
+  {% endif %}
+  {% endfor %}
+</section>
+{% endif %}
+
 <section id="examples" class="resume-section">
   <h2 class="heading heading--section-title">Examples</h2>
 

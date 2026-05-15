@@ -1,0 +1,5 @@
+- name: Claude Certified Architect
+  issuer: Anthropic
+  url:
+  issued:
+  display: false
